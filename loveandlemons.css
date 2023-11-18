@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Exo+2&family=Lato:wght@900&family=Roboto+Mono&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+body{
+    height: 1750vh;
+    background-color: antiquewhite;
+}
+
+
+.navbar{
+    z-index: 1;
+    /* background-color: pink; */
+    box-sizing: border-box;
+    /* border: 2px solid green; */
+    display: block;
+    margin:auto;
+    height:40px;
+    width:81vw;
+    justify-content: center;
+    top:35px;
+    position: sticky;
+    font-family: "HCo Archer SSm";
+}
+.navbar ul{
+
+}
+
+.navbar li {
+    font-family: 'Roboto Mono', monospace;
+    font-size: small;
+    margin:0px 11px;
+    display: inline-block;
+    list-style-type:none;
+}
+
+.navbar input{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(58, 51, 51);
+}
+
+.navitems a i{
+margin:4px 4px;
+}
+
+#top-design {       
+                    background-image: url("leaves.jpg");
+                    z-index: 2;
+                    /* border :2px solid red; */
+                    width:1259px;
+                    position: absolute;
+                    top:0px;
+                    left:0px;
+                    height:16px;
+                    background-size: 30px 15px;
+                    background-repeat: repeat-x;
+                    background-position-y: 2px;
+                }
