@@ -175,7 +175,7 @@ a:hover{
 .rightup{
     /* background-color: pink; */
     /* border:2px solid black; */
-    border-left:2px solid black;
+
     border-bottom:2px solid black;
     width:20vw;
     text-align: center;
@@ -187,7 +187,7 @@ a:hover{
     padding:20px 10px;
     /* background-color: orange; */
     /* border: 2px solid black;*/
-    border-top: 2px solid black;
+
     border-right: 2px solid black;
     width:48.25vw;
     height:980vh;
