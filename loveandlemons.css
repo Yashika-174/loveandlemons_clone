@@ -7,8 +7,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=DM+Serif+Display&family=Exo+2&family=Josefin+Slab:wght@300&family=Lato:wght@900&family=Pacifico&family=Playpen+Sans:wght@500&family=Roboto+Mono&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
 
 
+*{
+    clear: none;
+}
 body{
-    height: 1150vh;
+    border: 2px solid black;
+    display: block;
+    margin:auto;
+    height: 100%;
     background-color: whitesmoke;
 }
 
@@ -71,7 +77,7 @@ margin:4px 4px;
                     background-image: url("leaves.jpg");
                     z-index: 2;
                     /* border :2px solid red; */
-                    width:1259px;
+                    width:100%;
                     position: absolute;
                     top:0px;
                     left:0px;
@@ -101,14 +107,14 @@ margin:4px 4px;
 }
 
 .flex_section{
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 p{
-    /* border:2px solid red; */
+    border:2px solid red;
     display:inline-block;
     font-family: 'Carrois Gothic', sans-serif;
     text-align: left;
@@ -130,8 +136,8 @@ img{
 
 .leftup{
     box-sizing: border-box;
-    /* border: 2px solid black; */
-    /* background-color: blueviolet; */
+    border: 2px solid black;
+    background-color: blueviolet;
     width:50vw;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
@@ -173,10 +179,10 @@ a:hover{
 
 }
 .rightup{
-    /* background-color: pink; */
-    /* border:2px solid black; */
+    background-color: pink;
+    border:2px solid black;
 
-    border-bottom:2px solid black;
+    /* border-bottom:2px solid black; */
     width:20vw;
     text-align: center;
     padding:33px 62px;
@@ -185,10 +191,10 @@ a:hover{
 
 .leftdown{
     padding:20px 10px;
-    /* background-color: orange; */
-    /* border: 2px solid black;*/
+    background-color: orange;
+    border: 2px solid black;
 
-    border-right: 2px solid black;
+    /* border-right: 2px solid black; */
     width:48.25vw;
     height:980vh;
     text-align: center;
@@ -204,7 +210,7 @@ a:hover{
 }
 
 .ingredients_list{
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     text-align: left;
     list-style-type:georgian;
      padding:20px 20px;
@@ -229,7 +235,7 @@ height: 85vh;
 }
 
 .topsection{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: inline-block;
     width:48vw;
     margin-top:5px;
@@ -248,7 +254,7 @@ height: 85vh;
 }
 
 .bottomsection{
-    /* border: 2px solid grey; */
+    border: 2px solid grey;
     text-align: left;
     padding-left:20px;
     height:65vh;
@@ -265,7 +271,7 @@ left:-3px;
 }
 
 .leftside{
-    /* border:2px solid green; */
+    border:2px solid green;
     text-align: left;
 width:20vw;
 }
@@ -274,7 +280,7 @@ width:20vw;
 }
 
 .rightside{
-    /* border: 2px solid green; */
+    border: 2px solid green;
 width:25vw;
 
 position: relative;
@@ -288,7 +294,7 @@ top:-150px;
     width:310px;
     position: relative;
     top:-19px;
-   /* border: 2px solid black; */
+   border: 2px solid black;
 
 }
 
@@ -297,12 +303,12 @@ top:-150px;
     text-align:left;
     position: relative;
     top:-190px;
-    /* border:2px solid green; */
+    border:2px solid green;
 }
 
 .bottom_side input ,.leftside input{
    margin: 5px 0px;
-   /* border: 2px solid black; */
+   border: 2px solid black;
 }
 
 .leftside input{
@@ -322,11 +328,12 @@ top:-150px;
 }
 
 .container{
-    /* border:2px solid black; */
+    border:2px solid black;
     display: flex;
     height: 70vh;
     flex-direction: row;
-    width:101.05%;
+    width:100%;
+    justify-content: space-between;
     position:relative;
     bottom:-110px;
     left:-7.75px;
@@ -355,8 +362,8 @@ top:-150px;
 .bottom_design{       
                     background-image: url("leaves.jpg");
                     z-index: 2;
-                    /* border :2px solid red; */
-                    width:1263px;
+                    border :2px solid red;
+                    width:100%;
                     position: relative;
                     bottom:-120px;
                     left:-8px;
@@ -367,23 +374,23 @@ top:-150px;
                 }
 
 .left_links{
-    /* border:2px solid red; */
+    border:2px solid red;
     width:420px;
 }
 
 .middle_links{
-    /* border:2px solid red; */
+    border:2px solid red;
     width:400px;
 
 }
 .right_links{
-    /* border:2px solid red; */
+    border:2px solid red;
     width:425px;
 
 }
 .bottom_links{
     box-sizing: border-box;
-    /* border:2px solid red; */
+    border:2px solid red;
     width:100%;
     text-align: center;
 
