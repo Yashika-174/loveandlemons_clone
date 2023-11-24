@@ -7,27 +7,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=DM+Serif+Display&family=Exo+2&family=Josefin+Slab:wght@300&family=Lato:wght@900&family=Pacifico&family=Playpen+Sans:wght@500&family=Roboto+Mono&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
 
 
+
 *{
     clear: none;
+
 }
 body{
     border: 2px solid black;
     display: block;
     margin:auto;
-    height: 100%;
-    background-color: whitesmoke;
+    background-color: wheat;
 }
 
 
 .navbar{
 
     z-index: 1;
-    background-color: whitesmoke;
+    background-color: wheat;
     box-sizing: border-box;
-    /* border: 2px solid green; */
+    border: 2px solid green;
     display: block;
-    margin:21px auto;
-    height:43px;
+    margin:4vh auto;
+    height:8vh;
     width:100%;
     text-align: center;
     top:0px;
@@ -38,7 +39,7 @@ body{
 }
 
 .navbar ul{
-    margin-top:10px;
+    margin-top:1.5vh;
 }
 
 
@@ -98,11 +99,11 @@ margin:4px 4px;
 .bodysection .heading{
     font-family: 'Pacifico', cursive;
     box-sizing: border-box;
-    /* border:2px solid black; */
+    border:2px solid black;
     display:block;
-    height:180px;
-    font-size: 68px;
-    padding-top:23px;
+    height:29vh;
+    font-size: 11vh;
+    padding-top:3vh;
     text-align: center;
 }
 
@@ -115,23 +116,22 @@ margin:4px 4px;
 
 p{
     border:2px solid red;
+    box-sizing: border-box;
     display:inline-block;
     font-family: 'Carrois Gothic', sans-serif;
     text-align: left;
-    padding:10px 20px;
-    word-spacing: 4px;
-    line-height: 23px;
-    margin:4px;
+    word-spacing: 0.5vw;
+    line-height: 4vh;
+    margin:3vh 0.5vw;
+    padding:2vh 0vw;
+    font-weight:590;
+margin-bottom:0vh;
+
 }
 
 li{
-    word-spacing: 4px;
-
-}
-
-img{
-    height:60px;
-    width:60px;
+    word-spacing: 0.5vw;
+    font-family: 'Carrois Gothic', sans-serif;
 }
 
 .leftup{
@@ -142,16 +142,15 @@ img{
     border-right: 2px solid black;
     border-bottom: 2px solid black;
     text-align: center;
-    padding: 6px;
-    height:149px;
+    padding: 0vw;
+    height:25.2vh;
     
 }
 
 .leftup p{
-    height:69px;
-    padding-top:30px;
-    margin-top:0px;
-
+    display: inline-block;
+    height:12vh;
+    padding-top:3vh;
 }
 .leftup h2{
     margin:0px;
@@ -162,9 +161,6 @@ h2,h1,h3{
     font-family: 'Playpen Sans', cursive;
 }
 
-li{
-    font-family: 'Carrois Gothic', sans-serif;
-}
 
 .leftdown a{
     font-family: 'Carrois Gothic', sans-serif;
@@ -179,24 +175,25 @@ a:hover{
 
 }
 .rightup{
+    box-sizing: border-box;
     background-color: pink;
     border:2px solid black;
 
     /* border-bottom:2px solid black; */
-    width:20vw;
+    width:30vw;
     text-align: center;
-    padding:33px 62px;
-    height:79px;
+    padding:6vh 3vw;
+    height:25.15vh;
 }
 
 .leftdown{
     padding:20px 10px;
     background-color: orange;
     border: 2px solid black;
-
+box-sizing: border-box;
     /* border-right: 2px solid black; */
-    width:48.25vw;
-    height:980vh;
+    width:50.25vw;
+    height:1020vh;
     text-align: center;
 }
 
@@ -206,25 +203,28 @@ a:hover{
 }
 
 #p1{
-    height:69px;
+    height:20vh;
+    margin-bottom:0vh;
 }
 
 .ingredients_list{
+    margin:3vh 0.5vw;
+    padding:3vh 0vw;
     border: 2px solid blue;
     text-align: left;
     list-style-type:georgian;
-     padding:20px 20px;
-    word-spacing: 4px;
-    line-height: 23px;
-    margin:6px;
-    margin-bottom:0px;
-height: 85vh;
-}
-.ingredients_list p{
-    margin-left:19px;
-    margin-top: -21px;
-    height: 0px;
+    word-spacing:0.5vw;
+    line-height: 4vh;
+height: 91vh;
+margin-bottom:0vh;
 
+}
+
+.ingredients_list p{
+    margin-left:2vw;
+    margin-top: -10vh;
+    height: 7vh;
+    display: inline-block;
 }
 
 .list_headings{
@@ -258,7 +258,13 @@ height: 85vh;
     text-align: left;
     padding-left:20px;
     height:65vh;
-    margin-bottom: 7px;
+}
+
+.bottomsection p{
+    height:15vh;
+    margin-top: -3vh;
+    width:47vw;
+    margin-left: -1vw;
 }
 
 .tag_on_insta{
@@ -332,40 +338,42 @@ top:-150px;
     display: flex;
     height: 70vh;
     flex-direction: row;
-    width:100%;
-    justify-content: space-between;
+    width:99%;
+    justify-content:center;
     position:relative;
-    bottom:-110px;
+    z-index: 1;
+    bottom:-19vh;
     left:-7.75px;
     flex-wrap: wrap;
     padding:30px 10px;
-    background-color: rgb(197, 184, 187);
-
-
+    background-color: rgb(112, 103, 106);
 }
-
 
 .container a{
+    color:black;
+    font-weight: bold;
     text-decoration: none;
 }
-
-.container a:hover{
+.headings{
+    font-weight: bolder;
+}
+.container a:hover,.container a:active{
     list-style-type: none;
-
     color:rgb(58, 51, 51);
 }
 .container li{
     list-style-type: none;
-    line-height: 20px;
+    line-height: 4vh;
     margin:10px 10px;
 }
+
 .bottom_design{       
                     background-image: url("leaves.jpg");
                     z-index: 2;
                     border :2px solid red;
                     width:100%;
                     position: relative;
-                    bottom:-120px;
+                    bottom:-22vh;
                     left:-8px;
                     height:17px;
                     background-size: 30px 15px;
@@ -374,35 +382,49 @@ top:-150px;
                 }
 
 .left_links{
+
     border:2px solid red;
-    width:420px;
+    width:32vw;
+    height:55vh;
 }
 
 .middle_links{
     border:2px solid red;
-    width:400px;
+    width:32vw;
+    height:55vh;
 
 }
 .right_links{
     border:2px solid red;
-    width:425px;
+    width:32vw;
+    height:55vh;
 
 }
 .bottom_links{
     box-sizing: border-box;
     border:2px solid red;
-    width:100%;
+    width:97vw;
     text-align: center;
-
+    height: 10vh;
 }
 
 .bottom_links li{
     display: inline-block;
-    margin:20px 20px;
-    margin-top: 30px;
+    margin:0.02vh 2vw;
 }
 
 .headings{
     font-weight: bolder;
     font-size:large ;
+}
+
+.signin_tag{
+    position:fixed;
+    z-index:2;
+    right:10px;
+    bottom:30px;;
+    cursor:pointer;
+}
+.signin_tag i{
+    color: black;
 }
