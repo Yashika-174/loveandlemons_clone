@@ -13,7 +13,7 @@
 
 }
 body{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: block;
     margin:auto;
     background-color: wheat;
@@ -25,7 +25,7 @@ body{
     z-index: 1;
     background-color: wheat;
     box-sizing: border-box;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: block;
     margin:4vh auto;
     height:8vh;
@@ -99,7 +99,7 @@ margin:4px 4px;
 .bodysection .heading{
     font-family: 'Pacifico', cursive;
     box-sizing: border-box;
-    border:2px solid black;
+    /* border:2px solid black; */
     display:block;
     height:29vh;
     font-size: 11vh;
@@ -108,14 +108,14 @@ margin:4px 4px;
 }
 
 .flex_section{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 p{
-    border:2px solid red;
+    /* border:2px solid red; */
     box-sizing: border-box;
     display:inline-block;
     font-family: 'Carrois Gothic', sans-serif;
@@ -136,8 +136,8 @@ li{
 
 .leftup{
     box-sizing: border-box;
-    border: 2px solid black;
-    background-color: blueviolet;
+    /* border: 2px solid black; */
+    /* background-color: blueviolet; */
     width:50vw;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
@@ -176,10 +176,10 @@ a:hover{
 }
 .rightup{
     box-sizing: border-box;
-    background-color: pink;
-    border:2px solid black;
+    /* background-color: pink; */
+    /* border:2px solid black; */
 
-    /* border-bottom:2px solid black; */
+    border-bottom:2px solid black;
     width:30vw;
     text-align: center;
     padding:6vh 3vw;
@@ -188,10 +188,10 @@ a:hover{
 
 .leftdown{
     padding:20px 10px;
-    background-color: orange;
-    border: 2px solid black;
+    /* background-color: orange; */
+    /* border: 2px solid black; */
 box-sizing: border-box;
-    /* border-right: 2px solid black; */
+    border-right: 2px solid black;
     width:50.25vw;
     height:1020vh;
     text-align: center;
@@ -201,18 +201,17 @@ box-sizing: border-box;
     height:120vh;
     width:46vw;
     position: relative;
-    z-index:1;
 }
 
 .pinit{
-    border :2px solid black;
+    /* border :2px solid black; */
     box-sizing: border-box;
     position: relative;
     font-size: 8vh;
     height:13vh;
     padding-top:1.5vh;
     font-weight: bolder;
-    background-color: rgb(167, 157, 157);
+    /* background-color: rgb(167, 157, 157); */
     visibility:hidden;
     text-align: center;
 }
@@ -229,7 +228,7 @@ box-sizing: border-box;
 .ingredients_list{
     margin:3vh 0.5vw;
     padding:3vh 0vw;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     text-align: left;
     list-style-type:georgian;
     word-spacing:0.5vw;
@@ -254,7 +253,7 @@ margin-bottom:0vh;
 }
 
 .topsection{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: inline-block;
     width:48vw;
     margin-top:5px;
@@ -273,7 +272,7 @@ margin-bottom:0vh;
 }
 
 .bottomsection{
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     text-align: left;
     padding-left:20px;
     height:65vh;
@@ -301,12 +300,12 @@ display: inline-block;
   width: 100px;
   text-align: right;
   color: red;
-  background-color: aqua;
+  /* background-color: aqua; */
   font-weight: bold;
 }
 
 .leftside{
-    border:2px solid green;
+    /* border:2px solid green; */
     text-align: left;
 width:20vw;
 }
@@ -315,7 +314,7 @@ width:20vw;
 }
 
 .rightside{
-    border: 2px solid green;
+    /* border: 2px solid green; */
 width:25vw;
 
 position: relative;
@@ -329,7 +328,7 @@ top:-150px;
     width:310px;
     position: relative;
     top:-19px;
-   border: 2px solid black;
+   /* border: 2px solid black; */
 
 }
 
@@ -338,12 +337,12 @@ top:-150px;
     text-align:left;
     position: relative;
     top:-190px;
-    border:2px solid green;
+    /* border:2px solid green; */
 }
 
 .bottom_side input ,.leftside input{
    margin: 5px 0px;
-   border: 2px solid black;
+   /* border: 2px solid black; */
 }
 
 .leftside input{
@@ -363,7 +362,7 @@ top:-150px;
 }
 
 .container{
-    border:2px solid black;
+    /* border:2px solid black; */
     display: flex;
     height: 70vh;
     flex-direction: row;
@@ -399,7 +398,7 @@ top:-150px;
 .bottom_design{       
                     background-image: url("leaves.jpg");
                     z-index: 2;
-                    border :2px solid red;
+                    /* border :2px solid red; */
                     width:100%;
                     position: relative;
                     bottom:-22vh;
@@ -412,26 +411,26 @@ top:-150px;
 
 .left_links{
 
-    border:2px solid red;
+    /* border:2px solid red; */
     width:32vw;
     height:55vh;
 }
 
 .middle_links{
-    border:2px solid red;
+    /* border:2px solid red; */
     width:32vw;
     height:55vh;
 
 }
 .right_links{
-    border:2px solid red;
+    /* border:2px solid red; */
     width:32vw;
     height:55vh;
 
 }
 .bottom_links{
     box-sizing: border-box;
-    border:2px solid red;
+    /* border:2px solid red; */
     width:97vw;
     text-align: center;
     height: 10vh;
