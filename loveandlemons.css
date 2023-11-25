@@ -200,6 +200,25 @@ box-sizing: border-box;
 .leftdown img{
     height:120vh;
     width:46vw;
+    position: relative;
+    z-index:1;
+}
+
+.pinit{
+    border :2px solid black;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 8vh;
+    height:13vh;
+    padding-top:1.5vh;
+    font-weight: bolder;
+    background-color: rgb(167, 157, 157);
+    visibility:hidden;
+    text-align: center;
+}
+
+.leftdown .img:hover .pinit{
+    visibility: visible;
 }
 
 #p1{
@@ -270,10 +289,20 @@ margin-bottom:0vh;
 .tag_on_insta{
     margin-bottom: 10px;
 }
+
 .tag_on_insta i{
 position: relative;
 top:5px;
 left:-3px;
+}
+
+#lab label{
+display: inline-block;
+  width: 100px;
+  text-align: right;
+  color: red;
+  background-color: aqua;
+  font-weight: bold;
 }
 
 .leftside{
@@ -374,7 +403,7 @@ top:-150px;
                     width:100%;
                     position: relative;
                     bottom:-22vh;
-                    left:-8px;
+                    left:0px;
                     height:17px;
                     background-size: 30px 15px;
                     background-repeat: repeat-x;
